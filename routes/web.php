@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/hello_world/index', 'HelloWorldController@getIndex');
+
+Route::get('/form_test/index', 'FormTestController@getIndex');
